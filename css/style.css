@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.container {
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+.py-1 {
+    padding: 1rem 0;
+}
+
+.my-1 {
+    margin: 1rem 0;
+}
+.py-2 {
+    padding: 2rem 0;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+.h-100{
+    height: 100%;
+}
+/* header start  */
+
+header{
+    background-color:bisque;
+}
+header h1{
+    font-family: "Cedarville Cursive", cursive;
+}
+header .bi-list{
+    font-size: 2rem;
+}
+header nav ul li{
+    margin: 0 10px;
+}
+header nav ul li a{
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.804);
+}
+header nav ul li a:hover{
+    color: gray;
+}
+/* header end  */
+
+/* hero start  */
+
+.hero {
+    background:url('../images/hero-bg.jpg'),rgba(0, 0, 0, 0.633);
+    background-blend-mode: darken;
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero .hero-content h2{
+    font-size: 72px;
+    font-family: "Cedarville Cursive", cursive;
+}
+.hero .hero-content a{
+    background-color: gainsboro;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: black;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-weight: 800;
+    transition: 0.3s;
+}
+.hero .hero-content a:hover{
+    background-color: rgba(220, 220, 220, 0.597);
+}
+/* hero end  */
+/* best seller section start  */
+.coffee-menu .items {
+    overflow: hidden;
+}
+
+.coffee-menu .items img {
+    transition: all 0.6s;
+}
+
+.coffee-menu .items:hover img {
+    transform: scale(1.1);
+}
+
+.coffee-menu h3 {
+    background-color: #80808073;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(48, 48, 48);
+    transition: 0.6s;
+}
+
+.coffee-menu h3:hover {
+    color: rgba(245, 245, 245, 0.849);
+    background-color: black;
+}
+
+.items {
+    text-align: center;
+    background-color: aliceblue;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin: 1rem 0;
+}
+
+.items:hover {
+    border: 1px solid black;
+}
+
+.items .desc {
+    margin: 1rem 0;
+}
+
+.items .desc h4 {
+    padding: 10px 0;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.items .desc .price {
+    font-family: sans-serif;
+    padding: 5px 0;
+    font-weight: 700;
+}
+
+.items .desc .price span {
+    color: var(--heading-color);
+    font-size: 1.2rem;
+}
+
+.items .desc a{
+    padding: 10px 90px;
+    background-color: rgb(3, 156, 3);
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: var(--default-font);
+}
+.items .desc a:hover{
+    background-color: rgba(3, 193, 3, 0.952);
+}
+/* best seller section end  */
+
+/* footer start  */
+footer {
+    background-color: aliceblue;
+}
+
+footer h2 {
+    font-family: cursive;
+    /* color: var(--heading-color); */
+    padding: 20px 0;
+    font-size: 2rem;
+}
+
+footer .icons a {
+    margin: 5px 0;
+}
+
+footer .icons a i {
+    font-size: 2rem;
+    margin: 0px 15px;
+    transition: 0.3s;
+}
+
+footer .icons a i:hover {
+    color: rgb(39, 39, 163);
+}
+
+/* footer end  */
